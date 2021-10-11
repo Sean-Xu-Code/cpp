@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T10:21:19.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="qxgR3O38eapPBT68Km9m" version="14.9.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-11T07:10:19.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="XXAV4okH2Br0w_S2dgDL" version="14.9.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="类图">
     <mxGraphModel dx="1144" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -1364,7 +1364,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VXV2NZt4HfxjlmwBYt3u" name="创建道路流程图">
-    <mxGraphModel dx="383" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="sUctq-xrYmHnDbDGry0n-0" />
         <mxCell id="sUctq-xrYmHnDbDGry0n-1" parent="sUctq-xrYmHnDbDGry0n-0" />
@@ -1434,8 +1434,56 @@
         <mxCell id="kSJJ_WiLlh-4gFnJHxYh-9" value="IGenericElement&amp;nbsp;设置BmRoadCutteeGRepComponent、&lt;br&gt;BmRoadCutterGRepComponent" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
           <mxGeometry x="90" y="1100" width="220" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=classic;endFill=1;" edge="1" parent="sUctq-xrYmHnDbDGry0n-1" source="kSJJ_WiLlh-4gFnJHxYh-12" target="kSJJ_WiLlh-4gFnJHxYh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kSJJ_WiLlh-4gFnJHxYh-12" value="IGenericElement 设置&lt;br&gt;定位方式为“基于曲线在顶部关联平面带两个偏移的定位”" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
           <mxGeometry x="100" y="1351" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-17" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=classic;endFill=1;" edge="1" parent="sUctq-xrYmHnDbDGry0n-1" source="kSJJ_WiLlh-4gFnJHxYh-14" target="kSJJ_WiLlh-4gFnJHxYh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-14" value="设置是否允许关联平面整体偏移" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
+          <mxGeometry x="140" y="1491" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=classic;endFill=1;" edge="1" parent="sUctq-xrYmHnDbDGry0n-1" source="kSJJ_WiLlh-4gFnJHxYh-16" target="kSJJ_WiLlh-4gFnJHxYh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-16" value="设置起始偏移、终止偏移" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
+          <mxGeometry x="140" y="1631" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-21" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=classic;endFill=1;" edge="1" parent="sUctq-xrYmHnDbDGry0n-1" source="kSJJ_WiLlh-4gFnJHxYh-18" target="kSJJ_WiLlh-4gFnJHxYh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-18" value="更新道路路口连接" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
+          <mxGeometry x="140" y="1771" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-23" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=classic;endFill=1;" edge="1" parent="sUctq-xrYmHnDbDGry0n-1" source="kSJJ_WiLlh-4gFnJHxYh-20" target="kSJJ_WiLlh-4gFnJHxYh-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-20" value="更新道路所有数据" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
+          <mxGeometry x="140" y="1911" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-25" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=classic;endFill=1;" edge="1" parent="sUctq-xrYmHnDbDGry0n-1" source="kSJJ_WiLlh-4gFnJHxYh-22" target="kSJJ_WiLlh-4gFnJHxYh-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-22" value="更新当前Element" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
+          <mxGeometry x="140" y="2051" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-29" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=classic;endFill=1;" edge="1" parent="sUctq-xrYmHnDbDGry0n-1" source="kSJJ_WiLlh-4gFnJHxYh-24" target="kSJJ_WiLlh-4gFnJHxYh-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-24" value="标记IGenericElement图形表达关联更新变化Id" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
+          <mxGeometry x="140" y="2191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-26" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
+          <mxGeometry x="140" y="2440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-30" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;endArrow=classic;endFill=1;" edge="1" parent="sUctq-xrYmHnDbDGry0n-1" source="kSJJ_WiLlh-4gFnJHxYh-28" target="kSJJ_WiLlh-4gFnJHxYh-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSJJ_WiLlh-4gFnJHxYh-28" value="&lt;span&gt;返回pBmRoad这个IExternalObject&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;arcSize=14;sketch=0;" vertex="1" parent="sUctq-xrYmHnDbDGry0n-1">
+          <mxGeometry x="140" y="2331" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
