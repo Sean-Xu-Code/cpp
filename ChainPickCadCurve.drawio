@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T02:46:40.094Z" agent="5.0 (Windows)" etag="vLLoLSaDqdrrrhngzuGn" version="15.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-11T04:53:37.074Z" agent="5.0 (Windows)" etag="9C8tNo0n7hk-wnud9uIZ" version="15.5.6" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1185" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,8 +18,8 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="Purchase Parking Pass" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="60" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="BmPickNodeReferenceAction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="80" y="180" width="400" height="112" as="geometry">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="CommonEditPickNodeReferenceAction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="80" y="180" width="400" height="138" as="geometry">
             <mxRectangle x="200" y="220" width="200" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -34,6 +34,9 @@
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="+ Create() : bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="86" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ch3S9O3G6ZBDTfe2Ftq7-0" value="+ RigisterProcessor() : " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=4" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
+          <mxGeometry y="112" width="400" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="IPickPostProcessor" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" collapsed="1">
           <mxGeometry x="140" y="460" width="170" height="26" as="geometry">
@@ -73,7 +76,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OOC9lpMJYUZbqOaw8XCj-1" value="IPickEventHandler" style="swimlane;fontStyle=3;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="155" y="320" width="140" height="26" as="geometry">
+          <mxGeometry x="155" y="330" width="140" height="26" as="geometry">
             <mxRectangle x="180" y="450" width="160" height="86" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -100,7 +103,7 @@
             <mxPoint x="161" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OOC9lpMJYUZbqOaw8XCj-12" value="AlignmentPickPostProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OOC9lpMJYUZbqOaw8XCj-12" value="OpeningPickPostProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="530" width="210" height="26" as="geometry">
             <mxRectangle x="330" y="360" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -111,7 +114,7 @@
         <mxCell id="OOC9lpMJYUZbqOaw8XCj-14" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OOC9lpMJYUZbqOaw8XCj-12">
           <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="OOC9lpMJYUZbqOaw8XCj-15" value="MirrorPickPostProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="OOC9lpMJYUZbqOaw8XCj-15" value="PolycurvePickPostProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="580" width="210" height="26" as="geometry">
             <mxRectangle x="330" y="360" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -122,16 +125,16 @@
         <mxCell id="OOC9lpMJYUZbqOaw8XCj-17" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OOC9lpMJYUZbqOaw8XCj-15">
           <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="OOC9lpMJYUZbqOaw8XCj-18" value="TrimPickPostProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="630" width="210" height="26" as="geometry">
+        <mxCell id="OOC9lpMJYUZbqOaw8XCj-18" value="ChainCadCurvePickPostProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="630" width="260" height="26" as="geometry">
             <mxRectangle x="330" y="360" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OOC9lpMJYUZbqOaw8XCj-19" value="Salary" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="OOC9lpMJYUZbqOaw8XCj-18">
-          <mxGeometry y="26" width="210" height="26" as="geometry" />
+          <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OOC9lpMJYUZbqOaw8XCj-20" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="OOC9lpMJYUZbqOaw8XCj-18">
-          <mxGeometry y="52" width="210" height="8" as="geometry" />
+          <mxGeometry y="52" width="260" height="8" as="geometry" />
         </mxCell>
         <mxCell id="OOC9lpMJYUZbqOaw8XCj-21" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OOC9lpMJYUZbqOaw8XCj-12" target="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -210,28 +213,6 @@
               <mxPoint x="80" y="394" />
             </Array>
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="J0oaYAPU_-L1v4bQVUA5-0" value="DrawPickedCurvePickPostProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="674" width="250" height="26" as="geometry">
-            <mxRectangle x="330" y="360" width="160" height="70" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="J0oaYAPU_-L1v4bQVUA5-1" value="Salary" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J0oaYAPU_-L1v4bQVUA5-0">
-          <mxGeometry y="26" width="250" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="J0oaYAPU_-L1v4bQVUA5-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="J0oaYAPU_-L1v4bQVUA5-0">
-          <mxGeometry y="52" width="250" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="J0oaYAPU_-L1v4bQVUA5-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J0oaYAPU_-L1v4bQVUA5-0" target="zkfFHV4jXpPFQw0GAbJ--13">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="130" y="653" as="sourcePoint" />
-            <mxPoint x="230" y="484" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="100" y="687" />
-              <mxPoint x="100" y="514" />
-              <mxPoint x="225" y="514" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="J0oaYAPU_-L1v4bQVUA5-5" value="ActionMirrorElement" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -334,10 +315,82 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dLtSB1IRBkr97bLhCCUL" name="Page-2">
-    <mxGraphModel dx="1422" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0_LXd3zXh57d5PQR54Dv-0" />
         <mxCell id="0_LXd3zXh57d5PQR54Dv-1" parent="0_LXd3zXh57d5PQR54Dv-0" />
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="vUnv-Rx415G4xqLDOpbj-0" target="D6H5FU00CzbuNYimZ6kx-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vUnv-Rx415G4xqLDOpbj-0" value="ActionDrawCurvePick 内开启 拾取Action" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="330" y="510" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-0" target="D6H5FU00CzbuNYimZ6kx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-0" value="hover到cad线，进入pickposteventhandle" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="330" y="650" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-2" target="D6H5FU00CzbuNYimZ6kx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-2" value="通过CAD线的GNodeRef，拿到CADElement，拿到所有的CAD线和拾取到的CAD线" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="320" y="790" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-4" target="D6H5FU00CzbuNYimZ6kx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-4" value="从所有的CAD线里面筛选同颜色、同图层的CAD线" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="320" y="945" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-6" target="D6H5FU00CzbuNYimZ6kx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fgb4fVBcGbOOFZxr0xIn-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-6" target="fgb4fVBcGbOOFZxr0xIn-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-6" value="给过滤后的CAD线建立连接关系" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="375" y="1085" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-8" target="D6H5FU00CzbuNYimZ6kx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-8" value="&lt;div&gt;DFS遍历所有的CAD线，查找到环和非环的所有路径（包含被拾取到的CAD线）&lt;/div&gt;&lt;div&gt;为了提高性能，随DFS递归深度和结果的数目加以控制&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="320" y="1225" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-10" target="D6H5FU00CzbuNYimZ6kx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-10" value="&lt;div&gt;路径去重&lt;br&gt;&lt;/div&gt;&lt;div&gt;把指定数目的封闭路径按照面积降序&lt;/div&gt;&lt;div&gt;把指定数目的开放路径按照长度降序&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="320" y="1402.5" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-12" value="用开放路径和封闭路径的GNode创建GNodeRef，加入拾取候选集" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="330" y="1542.5" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-14" target="D6H5FU00CzbuNYimZ6kx-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-14" value="点击鼠标后 ActionDrawCurvePick::OnCurvePickFinished" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="920" y="790" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-15" target="D6H5FU00CzbuNYimZ6kx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-15" value="获取拾取到的GNodeRef的vector" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="1000" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0_LXd3zXh57d5PQR54Dv-1" source="D6H5FU00CzbuNYimZ6kx-17" target="D6H5FU00CzbuNYimZ6kx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-17" value="vector size大于1，则证明需要创建多条模型线" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="1000" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6H5FU00CzbuNYimZ6kx-19" value="创建多条模型线" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="1000" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fgb4fVBcGbOOFZxr0xIn-0" value="&lt;div&gt;连接关系是指：&lt;/div&gt;&lt;div&gt;两条CAD线有且仅有一个端点距离小于30mm&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="0_LXd3zXh57d5PQR54Dv-1">
+          <mxGeometry x="575" y="1075" width="315" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
