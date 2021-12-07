@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T09:03:39.931Z" agent="5.0 (Windows)" etag="sES7R1jIaudQueBEw8R_" version="15.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-07T03:41:59.061Z" agent="5.0 (Windows)" etag="suIAB9ebZEvn9DYx6H0a" version="15.8.6" type="github" pages="4">
   <diagram id="PTwXgvChC8Ch85quqxlX" name="Scheme Final">
-    <mxGraphModel dx="-342" dy="1358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="358" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="Wxb5Ih9X1z9pYF5Ffwk9-0" />
         <mxCell id="Wxb5Ih9X1z9pYF5Ffwk9-1" parent="Wxb5Ih9X1z9pYF5Ffwk9-0" />
@@ -270,11 +270,40 @@
             <mxRectangle x="1330" y="80" width="160" height="216" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YYBtdFlYTwtGG5axfxud-0" value="PickCurveDrawElementBehavior" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;sketch=0;" vertex="1" parent="Wxb5Ih9X1z9pYF5Ffwk9-1">
+          <mxGeometry x="1274.97" y="444" width="565.03" height="216" as="geometry">
+            <mxRectangle x="1274.97" y="444" width="245.03" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YYBtdFlYTwtGG5axfxud-1" value="- std::set&lt;UniIdentity&gt; m_setCommonPickPostProcessorUids;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;" vertex="1" parent="YYBtdFlYTwtGG5axfxud-0">
+          <mxGeometry y="26" width="565.03" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YYBtdFlYTwtGG5axfxud-4" value="- std::vector&lt;OwnerPtr&lt;ICommonPickPostProcessor&gt;&gt; m_vCommonPickPostProcessors;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;" vertex="1" parent="YYBtdFlYTwtGG5axfxud-0">
+          <mxGeometry y="52" width="565.03" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YYBtdFlYTwtGG5axfxud-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=0;" vertex="1" parent="YYBtdFlYTwtGG5axfxud-0">
+          <mxGeometry y="78" width="565.03" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YYBtdFlYTwtGG5axfxud-5" value="# void UnrigisterAllCommonPickPostProcessors();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;" vertex="1" parent="YYBtdFlYTwtGG5axfxud-0">
+          <mxGeometry y="86" width="565.03" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YYBtdFlYTwtGG5axfxud-7" value="# void RigisterAllCommonPickPostProcessors();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;" vertex="1" parent="YYBtdFlYTwtGG5axfxud-0">
+          <mxGeometry y="112" width="565.03" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YYBtdFlYTwtGG5axfxud-3" value="+ virtual void AddCommonPickPostProcessor(OwnerPtr&lt;ICommonPickPostProcessor&gt; opProcessor)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;" vertex="1" parent="YYBtdFlYTwtGG5axfxud-0">
+          <mxGeometry y="138" width="565.03" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YYBtdFlYTwtGG5axfxud-6" value="+ void OnInitAction();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;" vertex="1" parent="YYBtdFlYTwtGG5axfxud-0">
+          <mxGeometry y="164" width="565.03" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="YYBtdFlYTwtGG5axfxud-8" value="+ void OnDestroyAction();" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;" vertex="1" parent="YYBtdFlYTwtGG5axfxud-0">
+          <mxGeometry y="190" width="565.03" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Scheme 1">
-    <mxGraphModel dx="582" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="1422" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
